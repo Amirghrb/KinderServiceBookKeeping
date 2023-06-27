@@ -1,6 +1,14 @@
 package employee
 
-func (e *EmployeeData) setName(name string) {
-	e.user.name = name
-	return
+import "github.com/Amirghrb/KinderServiceBookKeeping/user"
+
+type EmployeeUsecase interface {
+	SetUser(u user.UserData)
+	GetUser() user.UserData
+	GetSalary() int
+	GetNationalId() int
+	GetBankAccountNumber(int)
+	SetSalary(int)
+	SetNationalId(int)
+	SetBankAccountNumber(int)
 }
