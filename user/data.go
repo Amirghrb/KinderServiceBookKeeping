@@ -1,6 +1,6 @@
 package user
 
-type data struct {
+type UserData struct {
 	name     string
 	id       int
 	birthday string
