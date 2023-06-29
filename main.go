@@ -17,4 +17,5 @@ func main() {
 	e.SetTitle(employee.MANAGER)
 	fmt.Println(u.GetName())
 	fmt.Println(u.Getid())
+	//TODO - add handler
 }

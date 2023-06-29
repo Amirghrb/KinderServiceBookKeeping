@@ -1,0 +1,17 @@
+
+
+   flow
+        todo        todo        doing            todo           doing       todo        todo
+req ->  handler ->  Blogic  ->  data    ->  databaseAction  ->  data    ->  Blogic  ->  handler ->  res
+
+
+
+                                     manager
+               _________________________|__________________
+               |                                            |
+           classroom                                     invoice
+               |                                            |
+            course                      pay[teacher,employee,services,products],resive[stuedent]
+          _____|_____                                  _____|_____ 
+         |           |
+      teacher      student                            
